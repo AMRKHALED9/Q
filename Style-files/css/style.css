@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+body{
+    background-color: #EEEEEE;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #686D76;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background:#DC5F00;
+    border-radius: 5px;
+    border: color();
+}
+
+::selection{
+    background-color: #DC5F00;
+    color: #EEEEEE;
+}
+
+.navbar{
+    direction: rtl;
+}
+
+.logo img{
+    height: 65px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.nav-links .links{
+    margin-top: 15px;
+    width: 50%;
+}
+.nav-links .links{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 60px;
+    color: #EEEEEE;
+    transition: 1s ease;
+}
+
+.nav-links .links:hover{
+    color: #DC5F00;
+    text-decoration:underline #DC5F00 solid;
+}
+
+
+.main{
+    background-color: #EEEEEE;
+    padding: 5%;
+    text-align: end;
+    direction: rtl;
+}
+.main .surah{
+    margin-bottom: 30px;
+}
+.main .surah a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: #686D76 solid 1px;
+    border-radius: 10px;
+    color: #373A40;
+    margin-right: 5px;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.main .surah a:hover{
+    border-color: #DC5F00;
+    color: #DC5F00;
+}
+.navbar-toggler{
+    background-color: #EEEEEE;
+    color: #373A40;
+}

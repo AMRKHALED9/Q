@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+body{
+    background-color: #EEEEEE;
+}
+*{
+    transition: 0.8s ease;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #686D76;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background:#DC5F00;
+    border-radius: 5px;
+    border: color();
+}
+
+::selection{
+    background-color: #DC5F00;
+    color: #EEEEEE;
+}
+
+.navbar{
+    direction: rtl;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-top: -106px;
+}
+
+.logo img{
+    height: 65px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.nav-links .links{
+    margin-top: 15px;
+    width: 50%;
+}
+.nav-links .links{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 60px;
+    color: #EEEEEE;
+    transition: 1s ease;
+}
+
+.nav-links .links:hover{
+    color: #DC5F00;
+    text-decoration:underline #DC5F00 solid;
+}
+
+.navbar-toggler{
+    background-color: #EEEEEE;
+    color: #373A40;
+}
+
+.main{
+    background-color: #EEEEEE;
+    margin-top: 106px;
+    padding: 5%;
+    text-align: end;
+    direction: rtl;
+}
+
+
+.surah-info h2{
+    padding: 15px 37px;
+    padding-bottom: 24px;
+    direction: ltr;
+    color: #373A40;
+    border: #DC5F00 solid 1px;
+    border-radius: 10px;
+}
+.surah-info h2:hover{ 
+    color: #DC5F00;
+}
+.surah-info h2::after{
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    background-color: #686D76;
+}
+
+.surah-info .info{
+    direction: ltr;
+    border: #DC5F00 solid 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.surah-info .info h3 {
+    display: flex;
+    direction: rtl;
+}
+.surah-info .info h3:hover{
+    color: #DC5F00;
+}
+.surah-info .info h3 .icon{
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.surah-info .info h4{
+    margin-right: 20px;
+}
+.surah-info .info h4:hover{
+    color: #DC5F00;
+}
+.surah-info .info h4::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 13px;
+    background-color: #DC5F00;
+}
+
+.surah-info a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px 0;
+    width: 100%;
+    color: #373A40;
+    border: #DC5F00 solid 1px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.surah{
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.surah p{
+    font-size: 1.3rem;
+    width: 60%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    color: #373A40;
+}
+
